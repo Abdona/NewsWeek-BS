@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
-
 .roboto-font {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -42,3 +41,8 @@
     width: 100%;
   }
 }
+
+.w-92 {
+  width: 93% !important;
+}
+/*# sourceMappingURL=main.css.map */
