@@ -14,4 +14,33 @@
 .boder-right {
   border-right: 1px solid #dee2e6;
 }
+
+@media (max-width: 576px) {
+  .svg-logo-xs {
+    width: 132px;
+    height: 20px;
+  }
+}
+
+.hambutt div {
+  background-color: #f5f5dc;
+  width: 22px;
+  height: 1px;
+}
+
+.ham-2 {
+  margin-top: 5px;
+}
+
+.ham-3 {
+  margin-top: 5px;
+}
+
+@media (min-width: 1024px) {
+  .w-resest {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
 /*# sourceMappingURL=main.css.map */

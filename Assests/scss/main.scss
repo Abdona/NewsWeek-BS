@@ -20,3 +20,33 @@ $border:1px solid #dee2e6;
 .boder-right {
     border-right: $border;
 }
+
+@media (max-width: 576px)
+{
+    .svg-logo-xs{
+    width: 132px;
+    height: 20px;
+}
+}
+
+.hambutt{
+    div {
+        background-color: #f5f5dc;
+        width: 22px;
+        height: 1px;
+    }
+}
+
+.ham-2 {
+    margin-top: 5px;
+}
+
+.ham-3 {
+    margin-top: 5px;
+}
+
+.w-resest {
+    @media (min-width: 1024px) {
+        width:fit-content;
+    }
+}
