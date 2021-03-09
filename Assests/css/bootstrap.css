@@ -271,6 +271,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  fill: #fff;
 }
 
 table {

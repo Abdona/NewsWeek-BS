@@ -2,11 +2,21 @@
 
 $roboto:'Roboto Condensed', sans-serif;
 $arial: Arial,Helvetica,sans-serif;
+$back-color:red;
+$border:1px solid #dee2e6;
 
-.roberto-font {
+.roboto-font {
     font-family: $roboto;
 }
 
 .arial-font {
     font-family: $arial;
+}
+
+.back-ground-color {
+    background-color: $back-color;
+}
+
+.boder-right {
+    border-right: $border;
 }
