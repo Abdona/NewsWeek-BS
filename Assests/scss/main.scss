@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
 
-$roboto:'Roboto Condensed', sans-serif;
-$arial: 'Arial', Helvetica, sans-serif;
-$back-color:red;
-$border:1px solid #dee2e6;
+$roboto: "Roboto Condensed",
+sans-serif;
+$arial: "Arial",
+Helvetica,
+sans-serif;
+$back-color: red;
+$border: 1px solid #dee2e6;
 
 .roboto-font {
     font-family: $roboto;
@@ -21,15 +24,14 @@ $border:1px solid #dee2e6;
     border-right: $border;
 }
 
-@media (max-width: 576px)
-{
-    .svg-logo-xs{
-    width: 132px;
-    height: 20px;
-}
+@media (max-width: 576px) {
+    .svg-logo-xs {
+        width: 132px;
+        height: 20px;
+    }
 }
 
-.hambutt{
+.hambutt {
     div {
         background-color: #f5f5dc;
         width: 22px;
@@ -47,6 +49,6 @@ $border:1px solid #dee2e6;
 
 .w-resest {
     @media (min-width: 1024px) {
-        width:100%;
+        width: 100%;
     }
 }
