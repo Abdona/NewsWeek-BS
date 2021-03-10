@@ -5,6 +5,7 @@ $roboto: "Roboto Condensed",sans-serif;
 $arial: "Arial",'Helvetica',sans-serif;
 $back-color: red;
 $border: 1px solid #dee2e6;
+$white-transparent: rgba(255, 255, 255, 0.9);
 
 .roboto-font {
   font-family: $roboto;
@@ -61,4 +62,28 @@ $border: 1px solid #dee2e6;
 
 .bg-grey {
   background-color: #f4f5f6;
+}
+
+.border-new {
+  border: 1px solid #e0e1e1;
+}
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+  .w-md-50{
+    width: 50%;
+  }
+}
+
+.bg-twhite {
+  background-color: $white-transparent;
+}
+
+.w-78 {
+  width: 78%;
+}
+
+.thumbnail-img {
+  width: 90px;
+  height: 90px;
 }

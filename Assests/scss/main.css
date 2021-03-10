@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
-
 .roboto-font {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -54,3 +53,27 @@
 .bg-grey {
   background-color: #f4f5f6;
 }
+
+.border-new {
+  border: 1px solid #e0e1e1;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+
+.bg-twhite {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.w-78 {
+  width: 78%;
+}
+
+.thumbnail-img {
+  width: 90px;
+  height: 90px;
+}
+/*# sourceMappingURL=main.css.map */
