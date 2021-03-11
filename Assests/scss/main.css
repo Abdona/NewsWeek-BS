@@ -63,7 +63,6 @@
   .p-xs {
     padding: 0 !important;
   }
-
   .w-80 {
     width: 80%;
   }
@@ -78,6 +77,10 @@
 @media (min-width: 1024px) {
   .w-lg-78 {
     width: 77% !important;
+  }
+
+  .w-lg-23 {
+    width: 23%;
   }
 }
 
