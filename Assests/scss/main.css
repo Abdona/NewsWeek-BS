@@ -63,7 +63,7 @@
   .p-xs {
     padding: 0 !important;
   }
-  
+
   .w-80 {
     width: 80%;
   }
@@ -91,6 +91,6 @@
 }
 
 .vs-logo {
-  bottom: 16px;
+  bottom: 12px;
   z-index: -1;
 }
