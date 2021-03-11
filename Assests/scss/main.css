@@ -63,7 +63,6 @@
   .p-xs {
     padding: 0 !important;
   }
-
   .w-80 {
     width: 80%;
   }
@@ -88,4 +87,9 @@
 .thumbnail-img {
   width: 90px;
   height: 90px;
+}
+
+.vs-logo {
+  bottom: 16px;
+  z-index: -1;
 }
