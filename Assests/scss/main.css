@@ -58,9 +58,24 @@
   border: 1px solid #e0e1e1;
 }
 
+@media (max-width: 767px) {
+  .p-xs {
+    padding: 0 !important;
+  }
+  .w-80 {
+    width: 80%;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .w-md-50 {
     width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .w-lg-78 {
+    width: 77% !important;
   }
 }
 
@@ -68,12 +83,15 @@
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.w-78 {
-  width: 78%;
-}
-
 .thumbnail-img {
   width: 90px;
   height: 90px;
+}
+
+.vs-logo::after {
+  border: 1px solid red;
+  display: inline-block;
+  width: 100%;
+  content: "";
 }
 /*# sourceMappingURL=main.css.map */
