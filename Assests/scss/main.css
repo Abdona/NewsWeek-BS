@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
-
 .roboto-font {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -37,7 +36,7 @@
   margin-top: 5px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .w-resest {
     width: 100%;
   }
@@ -68,17 +67,16 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .w-md-50 {
     width: 50%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .w-lg-78 {
-    width: 77% !important;
+    width: 100% !important;
   }
-
   .w-lg-23 {
     width: 23%;
   }
@@ -97,3 +95,4 @@
   bottom: 12px;
   z-index: -1;
 }
+/*# sourceMappingURL=main.css.map */

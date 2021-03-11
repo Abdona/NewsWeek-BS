@@ -47,7 +47,7 @@ $white-transparent: rgba(255, 255, 255, 0.9);
 }
 
 .w-resest {
-  @media (min-width: 1024px) {
+  @media (min-width: 992px) {
     width: 100%;
   }
 }
@@ -78,15 +78,15 @@ $white-transparent: rgba(255, 255, 255, 0.9);
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .w-md-50 {
     width: 50%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .w-lg-78 {
-    width: 77% !important;
+    width: 100% !important;
   }
   
   .w-lg-23 {
