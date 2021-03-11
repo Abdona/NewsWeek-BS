@@ -89,10 +89,3 @@
   width: 90px;
   height: 90px;
 }
-
-.vs-logo::after {
-  border: 1px solid red;
-  display: inline-block;
-  width: 100%;
-  content: "";
-}

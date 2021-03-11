@@ -2,15 +2,16 @@
 
 # The Next Web Clone-Milestone2
 
-> Newsweek Milestone1(NW).
+> Newsweek Milestone2(NW).
 
-![screenshot](/Assests/Images/project-3.jpg)
+![screenshot](/Assests/Images/mileston2-mobiledevice.jpg)
 
 
 ## Built With
 
 - HTML
 - CSS
+- SCSS
 - Bootstrap5
 ## Live Demo
 
