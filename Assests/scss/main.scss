@@ -68,19 +68,19 @@ $white-transparent: rgba(255, 255, 255, 0.9);
   border: 1px solid #e0e1e1;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .p-xs {
     padding: 0 !important;
   }
+
   .w-80 {
     width: 80%;
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 1024px)
 {
-  .w-md-50{
+  .w-md-50 {
     width: 50%;
   }
 }
@@ -100,7 +100,7 @@ $white-transparent: rgba(255, 255, 255, 0.9);
   height: 90px;
 }
 
-.vs-logo::after{
+.vs-logo::after {
   border: 1px solid red;
   display: inline-block;
   width: 100%;
