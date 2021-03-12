@@ -36,14 +36,14 @@
   margin-top: 5px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .w-resest {
     width: 100%;
   }
 }
 
 .w-92 {
-  width: 93% !important;
+  width: 93%;
 }
 
 .line-heigh-new {
@@ -67,15 +67,18 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .w-md-50 {
     width: 50%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .w-lg-78 {
-    width: 77%;
+    width: 100%;
+  }
+  .w-lg-23 {
+    width: 23%;
   }
 }
 
