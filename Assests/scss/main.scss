@@ -70,7 +70,7 @@ $white-transparent: rgba(255, 255, 255, 0.9);
 
 @media (max-width: 767px) {
   .p-xs {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .w-80 {
@@ -86,7 +86,7 @@ $white-transparent: rgba(255, 255, 255, 0.9);
 
 @media (min-width: 1024px) {
   .w-lg-78 {
-    width: 77% !important;
+    width: 77%;
   }
 }
 
