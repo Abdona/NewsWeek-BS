@@ -95,4 +95,16 @@
   bottom: 12px;
   z-index: -1;
 }
+
+.image-overlap {
+  top: 12px;
+  left: 84px;
+}
+
+.subs-text {
+  width: 27%;
+  margin-left: 23%;
+  margin-top: 2%;
+  position: absolute;
+}
 /*# sourceMappingURL=main.css.map */
