@@ -1,0 +1,129 @@
+// scss-lint:disable ImportantRule
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+$roboto: "Roboto Condensed",sans-serif;
+$arial: "Arial",'Helvetica',sans-serif;
+$back-color: red;
+$border: 1px solid #dee2e6;
+$white-transparent: rgba(255, 255, 255, 0.9);
+
+.roboto-font {
+  font-family: $roboto;
+}
+
+.arial-font {
+  font-family: $arial;
+}
+
+.back-ground-color {
+  background-color: $back-color;
+}
+
+.boder-right {
+  border-right: $border;
+}
+
+@media (max-width: 576px) {
+  .svg-logo-xs {
+    width: 132px;
+    height: 20px;
+  }
+}
+
+.hambutt {
+  div {
+    background-color: #f5f5dc;
+    width: 22px;
+    height: 1px;
+  }
+}
+
+.ham-2 {
+  margin-top: 5px;
+}
+
+.ham-3 {
+  margin-top: 5px;
+}
+
+.w-resest {
+  @media (min-width: 992px) {
+    width: 100%;
+  }
+}
+
+.w-92 {
+  width: 93% !important;
+}
+
+.line-heigh-new {
+  line-height: 1.13;
+}
+
+.bg-grey {
+  background-color: #f4f5f6;
+}
+
+.border-new {
+  border: 1px solid #e0e1e1;
+}
+
+@media (max-width: 767px) {
+  .p-xs {
+    padding: 0 !important;
+  }
+
+  .w-80 {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .w-md-50 {
+    width: 50%;
+  }
+
+  .w-md-48 {
+    width: 48%;
+  }
+
+  .w-md-23 {
+    width: 23%;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-78 {
+    width: 100% !important;
+  }
+
+  .w-lg-23 {
+    width: 23%;
+  }
+}
+
+.bg-twhite {
+  background-color: $white-transparent;
+}
+
+.thumbnail-img {
+  width: 90px;
+  height: 90px;
+}
+
+.vs-logo {
+  bottom: 12px;
+  z-index: -1;
+}
+
+.image-overlap {
+  top: 12px;
+  left: 84px;
+}
+
+.subs-text {
+  width: 27%;
+  margin-left: 23%;
+  margin-top: 2%;
+  position: absolute;
+}
